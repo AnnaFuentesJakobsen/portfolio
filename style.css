@@ -2,9 +2,23 @@
 	font-family: Helvetica, Arial;
 }
 
-/* --HEADER-- */
+ul {
+	list-style: none;
+}
 
-header h3 {
+/* --HEADER-- */
+.heading-1 {
+	text-align: center;	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.heading-2 {
+	text-align: left;	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.heading-3 {
 	text-align: center;	
 	letter-spacing: 4px;
 	text-transform: uppercase;
@@ -58,3 +72,20 @@ header h3 {
 
 
 /* MAIN */
+
+.heading-5 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.heading-6 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.education-list {
+	text-align: left;
+
+}
