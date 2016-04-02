@@ -1,0 +1,31 @@
+* {
+	font-family: Helvetica, Arial;
+}
+
+/* HEADER */
+.navbar ul {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	padding: 15px;
+	display: inline;
+	text-transform: uppercase;
+}
+
+.navbar a {
+	color: hotpink;
+	text-decoration: none;
+	font-size: 12px;
+	letter-spacing: 2px;
+
+}
+header h3 {
+	text-align: center;	
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+/* MAIN */
