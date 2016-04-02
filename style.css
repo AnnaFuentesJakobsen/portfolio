@@ -2,17 +2,16 @@
 	font-family: Helvetica, Arial;
 }
 
-/* HEADER */
-.navbar ul {
-	text-align: center;
-	margin: 0;
-	padding: 0;
+/* --HEADER-- */
+
+header h3 {
+	text-align: center;	
+	letter-spacing: 4px;
+	text-transform: uppercase;
 }
 
-.navbar li {
-	padding: 15px;
-	display: inline;
-	text-transform: uppercase;
+.container {
+	text-align: center;
 }
 
 .navbar a {
@@ -20,12 +19,42 @@
 	text-decoration: none;
 	font-size: 12px;
 	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	padding: 10px;
 
 }
-header h3 {
-	text-align: center;	
-	letter-spacing: 4px;
-	text-transform: uppercase;
+
+/* DROPDOWN MENU */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #fff;
+}
+
 
 /* MAIN */
