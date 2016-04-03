@@ -11,7 +11,7 @@ a {
 }
 
 img {
-	
+
 	-moz-webkit-filter: brightness(50%);
 	-ms-webkit-filter: brightness(50%);
 	-o-webkit-filter: brightness(50%);
@@ -22,15 +22,30 @@ img {
 }
 
 img:hover {
+
 	-webkit-webkit-filter: none;
 	-moz-webkit-filter: none;
 	-ms-webkit-filter: none;
 	-o-webkit-filter: none;
 	-webkit-filter: none;
 	filter: none;
+
+}
+
+.cat img {
+	width: 100px;
+	height: 200px;
+}
+.grupmygirl img {
+	width: 400px;
+	height: 800px;
 }
 
 /* --HEADER-- */
+
+header h3 {
+	margin-top: 0;
+}
 .head-1, .head-3 {
 	text-align: center;	
 	letter-spacing: 4px;
@@ -48,14 +63,10 @@ img:hover {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
-
-header h3 {
-	margin-top: 0;
-}
-
-.container {
+.navbar {
 	text-align: center;
 }
+
 
 .navbar a {
 	color: hotpink;
@@ -102,6 +113,7 @@ header h3 {
 
 /* --MAIN-- */
 
+
 .education-list {
 	text-align: left;
 
@@ -117,7 +129,9 @@ header h3 {
 }
 
 
-
+.wrapper {
+	display: inline;
+}
 
 
 
