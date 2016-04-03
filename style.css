@@ -6,22 +6,51 @@ ul {
 	list-style: none;
 }
 
-/* --HEADER-- */
-.heading-1 {
-	text-align: center;	
-	letter-spacing: 2px;
-	text-transform: uppercase;
+a {
+	text-decoration: none;
 }
-.heading-2 {
+
+img {
+	
+	-moz-webkit-filter: brightness(50%);
+	-ms-webkit-filter: brightness(50%);
+	-o-webkit-filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+	width: 100%;
+	height: auto;
+}
+
+img:hover {
+	-webkit-webkit-filter: none;
+	-moz-webkit-filter: none;
+	-ms-webkit-filter: none;
+	-o-webkit-filter: none;
+	-webkit-filter: none;
+	filter: none;
+}
+
+/* --HEADER-- */
+.head-1, .head-3 {
+	text-align: center;	
+	letter-spacing: 4px;
+	text-transform: uppercase;
+
+}
+.head-2 {
 	text-align: left;	
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
-.heading-3 {
-	text-align: center;	
-	letter-spacing: 4px;
+.head-6, .head-5 {
+	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+header h3 {
+	margin-top: 0;
 }
 
 .container {
@@ -71,21 +100,26 @@ ul {
 }
 
 
-/* MAIN */
-
-.heading-5 {
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-.heading-6 {
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-}
+/* --MAIN-- */
 
 .education-list {
 	text-align: left;
 
 }
+
+/* Portfolio */
+
+
+/* FOOTER */
+
+.get-back-up {
+	float: right;
+}
+
+
+
+
+
+
+
+
