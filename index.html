@@ -20,7 +20,7 @@
 <!-- Header -->
 <header>
 
-	<section id="#top" class="col-12">
+	<section id="#top">
 		<h3 class="head-3">Anna Fuentes Jakobsen</h3>	
 	</section>
 
@@ -41,28 +41,30 @@
 </header>
 <!-- Main -->
 <main>
+	<div class="wrapper">
+		<div class="row">
+			<section id="about">
+				<div class="col-12">
+					<h2 class="head-2">Me</h2>
 
-<section id="about">
-	<div class="col-12">
-		<h2 class="head-2">Me</h2>
-
-		<p class="my-text">
-			Mitt namn är Anna och jag är 25 år gammal och studerar till Frontend-utvecklare på Nackademin.
-			Mina intressen är webbutveckling, design, rita, klättra, foosball och spela TV-spel.
- 		<br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis blanditiis veritatis, sit expedita 	deleniti ullam officiis dolore repellat distinctio sapiente architecto in, aspernatur ratione voluptas rerum. 	Voluptate ex 	eius ipsa.
-		</p>
-
-		<h3 class="head-3">Personliga egenskaper</h3>
+						<p class="my-text">
+							Mitt namn är Anna och jag är 25 år gammal och studerar till Frontend-utvecklare på Nackademin.
+							Mina intressen är webbutveckling, design, rita, klättra, foosball och spela TV-spel.
+ 						<br>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nesciunt ipsam distinctio magni eum delectus facilis nobis, similique. Quos distinctio incidunt doloremque expedita facere quod tenetur nobis quas non inventore!
+						</p>
+				</div>
+		
+			<h3 class="head-3">Personliga egenskaper</h3>
+		</section>
 	</div>
-</section>
+</div>
 
+<div class="wrapper">
 <section id="project">
-	<div class="col-12">
-		<h1 class="head-1">Projekt</h1>
-	</div>
+	<h1 class="head-1">Projekt</h1>
 
-	<section class="row">
+	<div class="row">
 		<div id="zen" class="col-7">
 			<img src="img/zen.jpg">
 		</div>
@@ -72,7 +74,7 @@
 	</section>
 
 	<section class="row">
-		<div id="hw" class="col-5">
+		<div id="hw" class="col-4">
 			<img src="img/hw.jpg">
 		</div>
 		<div id="beanstalk" class="col-7">
@@ -87,16 +89,17 @@
 		<div id="grumpygirl" class"col-8">
 			<!--<img src="img/grumpygirl.jpg">-->
 		</div>
-	</section>
+	</div>
 
 </section>
+</div>
 
 <section id="cv">
-	<div class="col-12">
-		<h1 class="head-1">Utbildning</h1>
-			<h3 class="head-3">Frontend Utvecklare</h3>
-				<h6 class="head-6">Nackademin | 2015 - 2017</h6>
-					<div class="education-list">
+	<h1 class="head-1">Utbildning</h1>
+		<h3 class="head-3">Frontend Utvecklare</h3>
+			<h6 class="head-6">Nackademin | 2015 - 2017</h6>
+				<div class="row">
+					<div class="col-3">
 						<ul>
 							<li>HTML5</li>
 							<li>CSS3</li>
@@ -106,6 +109,8 @@
 							<li>MySQL</li>
 							<li>CMS</li>
 						</ul>
+					</div>
+					<div class="col-8	">
 						<ul>
 							<li>Sass</li>
 							<li>Bootstrap</li>
@@ -116,7 +121,8 @@
 							<li>Cross browser compatibility</li>
 						</ul>
 					</div>
-			</div>
+				</div>
+
 
 <div class="col-12">
 		<h3 class="head-3">Special FX Make-up School</h3>
@@ -168,7 +174,7 @@
 <footer>
 
 <section id="contact" class="container-footer">
-	<div class="col-6">
+	<div class="col-4">
 		<h2 class="head-2">Kontakta mig</h2>
 		<p>Anna Fuentes Jakobsen</p>
 		<a id="mail" href="#">annafjakobsen@gmail.com</a>
@@ -176,7 +182,7 @@
 	</div>
 
 
-	<div class="col-6">
+	<div id="follow-me" class="col-6">
 		<h2 class="head-2">Följ mig på:</h2>
 			<ul>
 				<li><a href="https://www.linkedin.com/in/anna-fuentes-jakobsen-254067101?trk=nav_responsive_tab_profile_pic" title="My LinkedIn account">LinkedIn</a></li>

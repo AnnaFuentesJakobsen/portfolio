@@ -2,7 +2,12 @@
 	font-family: Helvetica, Arial;
 }
 
+p {
+
+}
+
 ul {
+	padding: 0;
 	list-style: none;
 }
 
@@ -130,7 +135,14 @@ header h3 {
 
 
 .wrapper {
-	display: inline;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+#follow-me {
+	margin: 0;
+	float: right;
 }
 
 
