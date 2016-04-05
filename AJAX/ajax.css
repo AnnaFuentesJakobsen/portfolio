@@ -1,0 +1,22 @@
+body {
+	color: #827F7D;
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #E1E4E6;
+}
+
+button {
+	background-color: #F07524;
+	color: #fff;
+	margin-bottom: 50px;
+
+	border-radius: 20px;
+	height: 20px;
+	width: 100px;
+}
+
+#pressBtn {
+	height: 40px;
+	width: 200px;
+	font-size: 20px;
+}

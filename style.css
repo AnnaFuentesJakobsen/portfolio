@@ -16,17 +16,18 @@ a {
 }
 
 img {
-
+	
 	-moz-webkit-filter: brightness(50%);
 	-ms-webkit-filter: brightness(50%);
 	-o-webkit-filter: brightness(50%);
 	-webkit-filter: brightness(50%);
 	filter: brightness(50%);
-	width: 100%;
-	height: auto;
+	width: 80%;
+	cursor: pointer;
+
 }
 
-img:hover {
+aimg:hover {
 
 	-webkit-webkit-filter: none;
 	-moz-webkit-filter: none;
@@ -34,19 +35,11 @@ img:hover {
 	-o-webkit-filter: none;
 	-webkit-filter: none;
 	filter: none;
-
 }
 
-.cat img {
-	width: 100px;
-	height: 200px;
-}
-.grupmygirl img {
-	width: 400px;
-	height: 800px;
-}
-
-/* --HEADER-- */
+/* --------------------
+  Header
+-------------------- */
 
 header h3 {
 	margin-top: 0;
@@ -84,7 +77,9 @@ header h3 {
 
 }
 
-/* DROPDOWN MENU */
+/* --------------------
+  Dropdown
+-------------------- */
 
 .dropdown {
     position: relative;
@@ -115,8 +110,9 @@ header h3 {
     background-color: #fff;
 }
 
-
-/* --MAIN-- */
+/* --------------------
+  Main
+-------------------- */
 
 
 .education-list {
@@ -124,10 +120,14 @@ header h3 {
 
 }
 
-/* Portfolio */
+/* --------------------
+  Project
+-------------------- */
 
 
-/* FOOTER */
+/* --------------------
+  Footer
+-------------------- */
 
 .get-back-up {
 	float: right;
@@ -145,6 +145,24 @@ header h3 {
 	float: right;
 }
 
+/* --------------------
+  Animation
+-------------------- */
+
+
+imqg:hover {
+	-webkit-animation: zoom 0.6s;
+    animation: zoom 0.6s;
+
+}
+@-webkit-keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+@keyframes zoom {
+   	from {transform:scale(0.1)} 
+    to {transform:scale(1)}
+}
 
 
 
