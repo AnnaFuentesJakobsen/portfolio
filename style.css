@@ -2,10 +2,6 @@
 	font-family: Helvetica, Arial;
 }
 
-p {
-
-}
-
 ul {
 	padding: 0;
 	list-style: none;
@@ -27,7 +23,7 @@ img {
 
 }
 
-aimg:hover {
+img:hover {
 
 	-webkit-webkit-filter: none;
 	-moz-webkit-filter: none;
@@ -45,7 +41,7 @@ header h3 {
 	margin-top: 0;
 }
 .head-1, .head-3 {
-	text-align: center;	
+	stext-align: center;	
 	letter-spacing: 4px;
 	text-transform: uppercase;
 
@@ -57,7 +53,7 @@ header h3 {
 }
 
 .head-6, .head-5 {
-	text-align: center;
+	stext-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
@@ -123,6 +119,12 @@ header h3 {
 /* --------------------
   Project
 -------------------- */
+
+.download-cv {
+	
+	display: flex;
+	justify-content: center;
+}
 
 
 /* --------------------
