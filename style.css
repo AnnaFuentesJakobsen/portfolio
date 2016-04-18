@@ -1,7 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic);
 
+/* --------------------
+	General
+-------------------- */
+
 * {
 	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#top{
+	margin-left: 0px;
 }
 #name {
 
@@ -15,10 +23,7 @@ header {
 	background-image: url(img/bighex.png);
 	background-size: cover;
 	height: 800px;
-
 }
-
-
 ul {
 	padding: 0;
 	list-style: none;
@@ -28,26 +33,36 @@ a {
 	text-decoration: none;
 }
 
-img {
-	
-	-moz-webkit-filter: brightness(50%);
-	-ms-webkit-filter: brightness(50%);
-	-o-webkit-filter: brightness(50%);
-	-webkit-filter: brightness(50%);
-	filter: brightness(50%);
-	width: 80%;
-	cursor: pointer;
-
+.hov-gal {
+    position: relative;
+    text-align: center;
 }
 
-img:hover {
+.item {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-top: 10%;
+    margin-bottom: 4px;
+    font-size: 1em;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.hov-gal:hover .item {
+    opacity: 1;
+    cursor: pointer;
+}
 
-	-webkit-webkit-filter: none;
-	-moz-webkit-filter: none;
-	-ms-webkit-filter: none;
-	-o-webkit-filter: none;
-	-webkit-filter: none;
-	filter: none;
+#project img {
+	width: 100%;
 }
 
 /* --------------------
@@ -94,30 +109,18 @@ h5, h6 {
 /* --------------------
   Main
 -------------------- */
-#cv img, .project-img {
+.img-icon {
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70px;
 	height: 60px;
-	-webkit-filter: none;
-
-
 }
 
 .education-list {
 	text-align: left;
 
-}
-
-/* --------------------
-  Project
--------------------- */
-
-.download-cv {
-	
-	display: flex;
-	justify-content: center;
 }
 
 
