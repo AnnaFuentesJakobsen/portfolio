@@ -34,7 +34,7 @@
 
 @media only screen and (min-width: 730px) {
   [class*="col-"] {
-    margin-left: 0%;
+    margin-left: 0;
   }
   
   [class*="col-"]:first-child { 
