@@ -34,11 +34,11 @@
 
 @media only screen and (min-width: 730px) {
   [class*="col-"] {
-    margin-left: 3%;
+    margin-left: 0%;
   }
   
   [class*="col-"]:first-child { 
-    margin-left: 3%;
+    margin-left: 6%;
   }
   
   .col-1 {width: 5.583%;}

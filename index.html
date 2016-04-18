@@ -18,15 +18,16 @@
 <!-- Header -->
 <header>
 
-	<section id="#top" class="col-11">
-		<h1 id="name">Anna Fuentes Jakobsen</h1>	
-
-		<nav class="navbar">
-  		<a href="#">Om mig</a>
-			<a href="#">Projekt</a>
-			<a href="#">CV</a>
-			<a href="#">Kontakt</a>
-		</nav>
+	<section id="#top">
+		<div id="header-col" class="col-12">
+			<h1 id="name">Anna Fuentes Jakobsen</h1>	
+			<nav class="navbar">
+  			<a href="#">Om mig</a>
+				<a href="#">Projekt</a>
+				<a href="#">CV</a>
+				<a href="#">Kontakt</a>
+			</nav>
+		</div>
 	</section>
 </header>
 <!-- Main -->
@@ -52,16 +53,13 @@
 </div>
 
 <section id="cv">
-		<figure class="img-icon">
-			<img src="img/graduate.jpg">
-		</figure>
-			<div class="col-11">
-			<h1>Utbildning</h1>
-			<h3>Front-end Utvecklare</h3>
-			<h6>Nackademin | 2015 - 2017</h6>
+	<div class="col-12">
+		<h1>Utbildning</h1>
+		<h3>Front-end Utvecklare</h3>
+		<h6>Nackademin | 2015 - 2017</h6>
 	</div>
-					<div class="wrapper-list">
-					<div class="row">
+		<div class="wrapper-list">
+				<div class="row">
 					<div class="col-5">
 						<ul>
 							<li>- HTML5 och CSS3</li>
@@ -84,23 +82,26 @@
 						</ul>
 						</div>
 					</div>
-					<form method="get" action="cv.pdf">
-						<button type="submit">Ladda ner mitt CV!</button>
-					</form>
 					
 
 				</div>
+									<section id="download">
+						<div class="col-12">
+							<form method="get" action="cv.pdf">
+								<button type="submit">Ladda ner mitt CV!</button>
+							</form>
+						</div>
+					</section>
 </section>
 
 <!-- PROJEKT -->
 
 <section id="project">
-	<figure class="img-icon">
-		<img src="img/project.jpg">
-		<h1 class="">Projekt</h1>
-	</figure>
+	<div class="wrapper">
+		<div class="col-12">
+			<h1>Projekt</h1>
+		</div>
 
-		<div class="wrapper">
 			<div class="row">
 
 <!-- ROW 1 -->
@@ -109,7 +110,8 @@
 					<figure class="hov-gal">
 						<img src="img/zengarden.jpg" alt="Zen Garden">
 						<div class="item">
-							<p>Zen Garden</p>
+							<h3>CSS Design</h3>
+							<p>ZenGarden CSS Design</p>
 						</div>
 					</figure>
 				</section>
@@ -119,7 +121,8 @@
 						<a href="file:///Users/afuentesjakobsen/Documents/kod/cv/First/LightsOut/lightsout.html">
 						<img src="img/lightsout.png" alt="LightsOut"></a>
 						<div class="item">
-							<p>LightsOut</p>
+							<h3>Game</h3>
+							<p>LightsOut i JavaScript</p>
 						</div>
 					</figure>
 				</section>
@@ -128,7 +131,8 @@
 					<figure class="hov-gal">
 						<img src="img/bowie01.jpg" alt="David Bowie Illustration">
 						<div class="item">
-							<p>Illustration</p>
+							<h3>Illustration</h3>
+							<p>Bowie</p>
 						</div>
 					</figure>
 				</section>
@@ -141,7 +145,8 @@
 				<figure class="hov-gal">
 					<img class="beanstalk" src="img/beanstalk.jpg" alt="Beanstalk page">
 					<div class="item">
-						<p>Hemsida</p>
+						<h3>Webbsida</h3>
+						<p>Grupparbete Nackademin</p>
 					</div>
 				</figure>
 			</section>
@@ -150,7 +155,8 @@
 				<figure class="hov-gal">
 					<img class="dumpling" src="img/dumpling0.gif" alt="Gif">
 					<div class="item">
-						<p>Gif</p>
+						<h3>Gif</h3>
+						<p>Sayonara Dumpling</p>
 					</div>
 				</figure>
 			</section>
@@ -159,39 +165,32 @@
 				<figure class="hov-gal">
 					<img class="mockup" src="img/mockup.jpg" alt="Layout">
 					<div class="item">
-						<p>Layout</p>
+						<h3>Webbsida</h3>
+						<p>Mockup</p>
 					</div>
 				</figure>
 			</section>
-
+		</div>
 <!-- ROW 3 -->
 
 		<div class="row">
-			<section class="col-3">
+			<section class="col-4">
 				<figure class="hov-gal">
 					<img class="furiosa" src="img/furiosa.jpg" alt="Illustration Furiosa">
 					<div class="item">
-						<p>Illustration</p>
+						<h3>Illustration</h3>
+						<p>Furiosa</p>
 					</div>
 				</figure>
 			</section>
 
-			<section class="col-3">
+			<section class="col-4">
 				<figure class="hov-gal">
 					<a href="file:///Users/afuentesjakobsen/Documents/kod/cv/First/Todo/index.html">
 					<img class="todo" src="img/Todo.png" alt="Todo App"></a>
 					<div class="item">
-						<p>Todo app in Javascript</p>
-					</div>
-				</figure>
-			</section>
-
-			<section class="col-2">
-				<figure class="hov-gal">
-					<a href="file:///Users/afuentesjakobsen/Documents/kod/cv/First/AJAX/index.html">
-					<img class="ajax" src="img/AJAX.png" alt="AJAX"></a>
-					<div class="item">
-						<p>AJAX</p>
+						<h3>Todo app</h3>
+						<p>Javascript</p>
 					</div>
 				</figure>
 			</section>
@@ -200,7 +199,8 @@
 				<figure class="hov-gal">
 					<img class="hw" src="img/hw.jpg" alt="Illustration">
 					<div class="item">
-						<p>Illustration</p>
+						<h3>Illustration</h3>
+						<p>Helnwein</p>
 					</div>
 				</figure>
 			</section>

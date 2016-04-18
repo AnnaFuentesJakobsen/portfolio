@@ -8,11 +8,10 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-#top{
+#header-col {
 	margin-left: 0px;
 }
 #name {
-
 	color: grey;
 	padding-top: 240px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -27,42 +26,6 @@ header {
 ul {
 	padding: 0;
 	list-style: none;
-}
-
-a {
-	text-decoration: none;
-}
-
-.hov-gal {
-    position: relative;
-    text-align: center;
-}
-
-.item {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    color: #fff;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    padding-top: 10%;
-    margin-bottom: 4px;
-    font-size: 1em;
-    opacity: 0;
-    -webkit-transition: all 300ms ease-out;
-    -moz-transition: all 300ms ease-out;
-    -o-transition: all 300ms ease-out;
-    -ms-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-}
-.hov-gal:hover .item {
-    opacity: 1;
-    cursor: pointer;
-}
-
-#project img {
-	width: 100%;
 }
 
 /* --------------------
@@ -92,7 +55,6 @@ h5, h6 {
 	text-align: center;
 }
 
-
 .navbar a {
 	background-color: #fff;
 	color: hotpink;
@@ -104,11 +66,45 @@ h5, h6 {
 	padding: 10px;
 
 }
-
-
 /* --------------------
   Main
 -------------------- */
+.hov-gal {
+    position: relative;
+    text-align: center;
+}
+
+.item {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-top: 10%;
+    margin-bottom: 4px;
+    font-size: 1em;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.hov-gal:hover .item {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#cv .col-12, #project .col-12  {
+	margin-left: 0;
+}
+
+#project img {
+	width: 100%;
+}
+
 .img-icon {
 
 	display: block;
@@ -123,6 +119,19 @@ h5, h6 {
 
 }
 
+#download button {
+	background-color: white;
+	color: hotpink;
+	border: 3px solid grey;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#download .col-12 {
+	margin-left: 0;
+}
 
 /* --------------------
   Footer
@@ -159,12 +168,6 @@ h5, h6 {
   Animation
 -------------------- */
 
-
-imqg:hover {
-	-webkit-animation: zoom 0.6s;
-    animation: zoom 0.6s;
-
-}
 @-webkit-keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
