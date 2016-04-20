@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,500);
+
+/* --------------------
+	General
+-------------------- */
+
+* {
+	font-family: 'Raleway', sans-serif;	
+}
+body {
+	background-color: #fff;
+	color: #616161;
+}
+header {
+	background-image: url(img/bighex.png);
+	background-size: cover;
+	height: 250px;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+p , li{
+	line-height: 200%;
+}
+a {
+	text-decoration: none;
+	color: #c48aff;
+}
+
+h1, h2, h3{
+	text-align: center;	
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+h4 {
+	text-align: left;	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+h5, h6 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+/* --------------------
+  Header
+-------------------- */
+
+#header-col {
+	margin-left: 0px;
+}
+#name {
+	color: #8CF5CF;
+  	text-shadow:
+    	0 1px 0px #378ab4,
+    	1px 0 0px #5dabcd,
+    	1px 2px 1px #378ab4,
+    	2px 1px 1px #5dabcd,
+    	2px 3px 2px #378ab4,
+    	3px 2px 2px #5dabcd,
+    	3px 4px 2px #378ab4,
+    	4px 3px 3px #5dabcd,
+    	4px 5px 3px #378ab4,
+    	5px 4px 2px #5dabcd,
+    	5px 6px 2px #378ab4,
+    	6px 5px 2px #5dabcd,
+    	6px 7px 1px #378ab4,
+    	7px 6px 1px #5dabcd,
+    	7px 8px 0px #378ab4,
+    	8px 7px 0px #5dabcd;
+	padding-top: 1em;
+	letter-spacing: 5px;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+#about .wrapper {
+	background: rgb(255,255,255); 
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 69%, rgba(255,255,255,1) 69%, rgba(140,245,207,1) 100%); 
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 69%,rgba(255,255,255,1) 69%,rgba(140,245,207,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 69%,rgba(255,255,255,1) 69%,rgba(140,245,207,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8cf5cf',GradientType=0 ); 
+}
+.navbar {
+	text-align: center;
+}
+.navbar a {
+
+	font-size: 15px ;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+/* --------------------
+  Main
+-------------------- */
+
+#about h4 {
+	margin: 0;
+}
+
+#about p {
+	padding: 15px;
+}
+
+#about p:last-child {
+	margin-bottom: 40px;
+}
+
+/* --------------------
+  CV
+-------------------- */
+
+#cv .col-12, #project .col-12  {
+	margin-left: 0;
+}
+
+#cv {
+	background: rgb(140,245,207); 
+	background: -moz-linear-gradient(top,  rgba(140,245,207,1) 24%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 101%);
+	background: -webkit-linear-gradient(top,  rgba(140,245,207,1) 24%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 101%); 
+	background: linear-gradient(to bottom,  rgba(140,245,207,1) 24%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 101%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cf5cf', endColorstr='#ffffff',GradientType=0 ); 
+}
+#cv h1 {
+	font-size: 40px;
+}
+#cv h1, h3{
+	color: #fff;
+	text-shadow: 
+		0px 4px 3px rgba(0,0,0,0.4),
+		0px 8px 13px rgba(0,0,0,0.1),
+		0px 18px 23px rgba(0,0,0,0.1);
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+#cv h5 {
+	color: #c48aff;
+}
+
+/* --------------------
+  Project
+-------------------- */
+
+
+#project .col-12 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#project .wrapper {
+	margin-top: 80px;
+}
+
+#project h1 {
+	font-size: 40px;
+	letter-spacing: 5px;
+	margin-bottom: 40px;
+}
+#project img {
+	width: 100%;
+}
+
+#download .col-12 {
+	margin-left: 0;
+}
+
+#download button {
+	background: #f3e8ff;
+	background-image: -webkit-linear-gradient(top, #f3e8ff, #c48aff);
+	background-image: -moz-linear-gradient(top, #f3e8ff, #c48aff);
+	background-image: -ms-linear-gradient(top, #f3e8ff, #c48aff);
+	background-image: -o-linear-gradient(top, #f3e8ff, #c48aff);
+	background-image: linear-gradient(to bottom, #f3e8ff, #c48aff);
+	-webkit-border-radius: 12;
+	-moz-border-radius: 12;
+	border: none;
+	border-radius: 12px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+	font-size: 15px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+#download button:hover {
+  background: #c48aff;
+  text-decoration: none;
+}
+.hov-gal {
+    position: relative;
+    text-align: center;
+}
+
+.item {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding-top: 10%;
+    margin-bottom: 4px;
+    font-size: 2em;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+.hov-gal:hover .item {
+    opacity: 1;
+    cursor: pointer;
+}
+/* --------------------
+  Footer
+-------------------- */
+
+#contact .col-12 {
+	letter-spacing: 2px;
+}
+
+#contact .col-12 {
+	margin-left: 0;
+	text-align: center;
+}
+
+#mail {
+	font-size: 18px;
+}
+
+#links .wrapper {
+	background: rgb(255,255,255); 
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) -1%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(140,245,207,1) 76%);
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) -1%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(140,245,207,1) 76%); 
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) -1%,rgba(255,255,255,1) 0%,rgba(255,255,255,1) 0%,rgba(140,245,207,1) 76%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8cf5cf',GradientType=0 ); 
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+}
+
+.wrapper-list {
+	margin-left: 40px;
+}
+
+.link-list li {
+	display: inline;
+	padding: 10px;
+}
+
+.link-list img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.link-list img:hover {
+	opacity: .5;
+}
+.back-up {
+	float: right;
+	margin-right: 3%; 
+}
+
+/* --------------------
+  Media Queries
+-------------------- */
+
+@media only screen and (min-width: 400px) {
+    .item {
+        padding-top: 12%;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+	header {
+		height: 600px;
+	}
+	#name {
+		padding-top: 4em;
+		font-size: 60px;
+	}
+	.navbar a {
+		font-size: 15px;
+		padding: 30px 30px;
+	}
+	a:hover {
+		color: #fff;
+		-webkit-transition: all 300ms ease-out;
+    	-moz-transition: all 300ms ease-out;
+    	-o-transition: all 300ms ease-out;
+    	-ms-transition: all 300ms ease-out;
+    	transition: all 300ms ease-out;
+	}
+	.item {
+    	margin-bottom: 4px;
+    	font-size: 10px;
+	}
+
+}
+
+@media only screen and (min-width: 900px) {
+	header {
+		height: 800px;
+	}
+	.item {
+		font-size: 1em;
+	}
+}
